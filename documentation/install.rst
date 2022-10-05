@@ -1,0 +1,53 @@
+.. default-role:: code
+
+============
+Installation
+============
+
+To install shortkeygui, install the `shortkeygui` package from PyPI by running `pip install shortkeygui` (on Windows) or `pip3 install shortkeygui` (on macOS and Linux). (On macOS and Linux, `pip` refers to Python 2's pip tool.)
+
+OS-specific instructions are below.
+
+Windows
+-------
+
+On Windows, you can use the ``py.exe`` program to run the latest version of Python:
+
+    ``py -m pip install shortkeygui``
+
+If you have multiple versions of Python installed, you can select which one with a command line argument to ``py``. For example, for Python 3.8, run:
+
+    ``py -3.8 -m pip install shortkeygui``
+
+(This is the same as running ``pip install shortkeygui``.)
+
+macOS
+-----
+
+On macOS and Linux, you need to run ``python3``:
+
+    ``python3 -m pip install shortkeygui``
+
+If you are running El Capitan and have problems installing pyobjc try:
+
+    ``MACOSX_DEPLOYMENT_TARGET=10.11 pip install pyobjc``
+
+Linux
+-----
+
+On macOS and Linux, you need to run ``python3``:
+
+    ``python3 -m pip install shortkeygui``
+
+On Linux, additionally you need to install the ``scrot`` application, as well as Tkinter:
+
+    ``sudo apt-get install scrot``
+
+    ``sudo apt-get install python3-tk``
+
+    ``sudo apt-get install python3-dev``
+
+shortkeygui install the modules it depends on, including uiaction.
+
+
+.. _SriBalaji: https://github.com/SriBalajiSMVEC
